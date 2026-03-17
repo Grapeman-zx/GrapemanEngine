@@ -1,4 +1,4 @@
-﻿
+﻿#include "../Engine/TempleClass.h"
 #include <iostream>
 
 int main()

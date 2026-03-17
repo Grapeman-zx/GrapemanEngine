@@ -10,9 +10,4 @@
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="TempleClass.h">
-      <Filter>source</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>

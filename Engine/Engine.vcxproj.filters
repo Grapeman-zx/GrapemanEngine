@@ -9,12 +9,18 @@
     <ClCompile Include="pch.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="TempleClass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>source</Filter>
     </ClInclude>
     <ClInclude Include="EngineMin.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="TempleClass.h">
       <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
