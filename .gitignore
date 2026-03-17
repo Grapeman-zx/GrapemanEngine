@@ -15,8 +15,7 @@ ARM64/
 *.sln.idsache
 *.VC.db
 *.VC.opendb
-*.vcxproj
-*.filters
+
 # --- 编译生成的二进制与库文件 ---
 *.exe
 *.dll
