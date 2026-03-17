@@ -1,7 +1,13 @@
-﻿#include "../Engine/TempleClass.h"
-#include <iostream>
-
+﻿#include"../Engine/Application.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	using namespace Engine;
+	Application app;
+	if (app.Init()) 
+	{
+		while (app.IsRunning())
+		{
+			app.Update();
+		}
+	}
 }

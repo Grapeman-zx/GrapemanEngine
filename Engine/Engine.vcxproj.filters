@@ -9,7 +9,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="TempleClass.cpp">
+    <ClCompile Include="Application.cpp">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
@@ -20,7 +20,7 @@
     <ClInclude Include="EngineMin.h">
       <Filter>source</Filter>
     </ClInclude>
-    <ClInclude Include="TempleClass.h">
+    <ClInclude Include="Application.h">
       <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
