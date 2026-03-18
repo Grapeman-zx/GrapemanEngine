@@ -6,6 +6,21 @@
 
 #ifndef PCH_H
 #define PCH_H
+
+#include<iostream>
+
 #include "EngineMin.h"
 #include <Windows.h>
+#include "Helper.h"
+
+#include <d3d12.h>
+#include <dxgi1_6.h>
+#include <dxgidebug.h>
+
+#pragma comment(lib,"dxgi.lib")
+#pragma comment(lib,"D3D12.lib")
+#pragma comment(lib,"dxguid.lib")
+
 #endif //PCH_H
+
+
