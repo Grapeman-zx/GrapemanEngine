@@ -7,7 +7,12 @@ namespace Engine
 	{
 	public:
 		RenderAPI() = default;
-		~RenderAPI() {}
+		~RenderAPI() {
+			if (mDevice.Get()) 
+			{
+				mDevice.Reset();
+			}
+		}
 
 	public:
 		void Init(HWND hwnd);

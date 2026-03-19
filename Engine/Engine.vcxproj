@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="D12Debug.h" />
     <ClInclude Include="D12Device.h" />
     <ClInclude Include="DXGIAdapter.h" />
+    <ClInclude Include="DXGIDebug.h" />
     <ClInclude Include="DXGIFactory.h" />
     <ClInclude Include="EngineMin.h" />
     <ClInclude Include="Helper.h" />
@@ -151,8 +153,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="D12Debug.cpp" />
     <ClCompile Include="D12Device.cpp" />
     <ClCompile Include="DXGIAdapter.cpp" />
+    <ClCompile Include="DXGIDebug.cpp" />
     <ClCompile Include="DXGIFactory.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

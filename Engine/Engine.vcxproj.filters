@@ -16,6 +16,9 @@
     <Filter Include="source\RenderAPI\DX12\Base">
       <UniqueIdentifier>{e8484373-9b09-4731-9f15-d063e9c07a8c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\RenderAPI\DX12\Debug">
+      <UniqueIdentifier>{ebca92fb-ed1f-4022-b864-03530e633a1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -36,6 +39,12 @@
     </ClCompile>
     <ClCompile Include="D12Device.cpp">
       <Filter>source\RenderAPI\DX12\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="D12Debug.cpp">
+      <Filter>source\RenderAPI\DX12\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="DXGIDebug.cpp">
+      <Filter>source\RenderAPI\DX12\Debug</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +72,12 @@
     </ClInclude>
     <ClInclude Include="D12Device.h">
       <Filter>source\RenderAPI\DX12\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="D12Debug.h">
+      <Filter>source\RenderAPI\DX12\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGIDebug.h">
+      <Filter>source\RenderAPI\DX12\Debug</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

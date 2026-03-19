@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Application.h"
 #include<windowsx.h>
+#include "DXGIDebug.h"
 
 namespace Engine
 {
@@ -80,6 +81,7 @@ namespace Engine
 	}
 	void Application::OnDestroy()
 	{
+		DXGIDebug::Get().GetLiveObjects();
 		bIsRunning = false;
 	}
 }

@@ -3,7 +3,7 @@
 #include "pch.h"
 namespace Engine 
 {
-	class D12Device : public Microsoft::WRL::ComPtr<ID3D12Device>
+	class GM_ENGINE D12Device : public Microsoft::WRL::ComPtr<ID3D12Device>
 	{
 	public:
 		D12Device() = default;
